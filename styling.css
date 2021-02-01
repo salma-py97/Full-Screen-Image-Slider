@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-size: 1.2rem;
+	height: 100vh;
+	width: 100vw;
+	background-color: #333;
+}
+.wrap {
+	height: 100%;
+	color: #fff;	
+    width: 100%;
+    position: relative;
+}
+.slide {
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.slide-content{
+    display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	width: 100%;
+}
+
+#right, #left{
+    position: absolute;
+    cursor: pointer;
+}
+#right{
+    top: 94%;
+    right: 10%;
+}
+#left{
+    top: 94%;
+    left: 10%;
+}
+
+.slide1 {
+	background-image: url("/imgs/img1.jpeg");
+}
+.slide2 {
+	background-image: url("/imgs/img2.jpeg");
+}
+.slide3 {
+	background-image: url("/imgs/img3.jpeg");
+}
+.slide4 {
+	background-image: url("/imgs/img4.jpeg");
+}
+.slide5 {
+	background-image: url("/imgs/img5.jpeg");
+}
+.slide6 {
+	background-image: url("/imgs/img6.jpeg");
+}
+.slide7 {
+	background-image: url("/imgs/img7.jpeg");
+}
+.slide8 {
+	background-image: url("/imgs/img8.jpeg");
+}
+.slide9 {
+	background-image: url("/imgs/img9.jpeg");
+}
+
